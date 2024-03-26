@@ -7,7 +7,8 @@ const port = 8001;
 const app = express();
 const path = require('path');
 
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
+console.log("hi");
 
 mongoose.connect("mongodb+srv://dharmikchhodvdiya1:o317baOSOsbzkUAC@cluster0.t74c9ci.mongodb.net/myblogbatch5",
     { useNewUrlParser: true }
