@@ -1,0 +1,43 @@
+<%- include('header') %>
+
+
+            <!-- END HEADER DESKTOP-->
+
+            <!-- MAIN CONTENT-->
+            <div class="main-content">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12">
+                              
+                                <div class="table-responsive table--no-card m-b-30">
+                                    <img src="<%= locals.admin.image %>" height="200" width="200" />
+                                    <a href="/admin/updateAdmin/?id=<%= locals.admin.id %>" class="alert alert-success">Edit Profile</a>
+                                    <table class="table table-borderless table-striped table-earning">
+                                        <thead>
+                                            <tr>
+                                                <th>Fields</th>
+                                                <th>Values</th>
+                                                
+                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            
+                                            <tr>
+                                                <td>name</td>
+                                                <td><%= locals.admin.name %></td>
+                                               
+                                                
+                                            </tr>
+                                           
+                                           
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            
+                        </div>
+                       
+                       
+<%- include('footer') %>
