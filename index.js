@@ -9,6 +9,7 @@ const path = require('path');
 
 const mongoose = require('mongoose')
 console.log("hi");
+console.log("new line added");
 
 mongoose.connect("mongodb+srv://dharmikchhodvdiya1:o317baOSOsbzkUAC@cluster0.t74c9ci.mongodb.net/myblogbatch5",
     { useNewUrlParser: true }
